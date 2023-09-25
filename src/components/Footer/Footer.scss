@@ -1,0 +1,184 @@
+.footer-wrapper {
+    &__start {
+        padding: 144px 0 171px 144px;
+        display: flex;
+    }
+
+    &__start-img {
+        position: relative;
+        padding: 0 24.5px;
+        margin-right: 72px;
+        background: linear-gradient(136deg, #e3e3e3 29.99%, #c3c3c3 79.17%);
+    }
+
+    &__start-span {
+        position: absolute;
+        bottom: -27px;
+        right: -104px;
+        width: 100%;
+        max-width: 360px;
+        color: #303030;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        font-style: italic;
+        line-height: 15.9px;
+        padding: 22px 32px 32px;
+        border-radius: 11.936px;
+        background: linear-gradient(331deg, #f0ebff -4.05%, #fff 34.42%);
+        box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.2);
+    }
+
+    &__start-title {
+        margin-top: 56px;
+    }
+
+    &__start-heading {
+        width: 100%;
+        max-width: 360px;
+        color: #303030;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__start-desc {
+        width: 100%;
+        max-width: 219px;
+        color: #404040;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__start-desc1 {
+        width: 100%;
+        max-width: 358px;
+        color: 404040;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 20px;
+        margin: 16px 0 32px;
+        padding: 0;
+    }
+
+    &__start-desc2 {
+        width: 100%;
+        max-width: 469px;
+        color: #404040;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 20px;
+        margin: 16px 0 32px;
+        padding: 0;
+    }
+
+    &__start-btn {
+        border-radius: 15px;
+        background: #273895;
+        padding: 17px 40px;
+        border: 0;
+
+        a {
+            color: #fff;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            line-height: 18px;
+        }
+    }
+
+    &__border {
+        display: block;
+        border-top: 3px solid #dee6ef;
+        margin: 0 -20px;
+    }
+
+    &__ilc {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 32px 90px 32px 60px;
+    }
+
+    &__ilc-desc {
+        width: 100%;
+        max-width: 93px;
+        margin: 0 48px 0 -75px;
+        color: #3b1d8f;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+        padding: 0;
+    }
+
+    &__ilc-span {
+        width: 100%;
+        max-width: 227px;
+        color: #303030;
+        font-size: 12px;
+        font-style: normal;
+        line-height: 20px;
+    }
+
+    &__group-ilc {
+        width: 100%;
+        max-width: 168px;
+        height: 36px;
+        background-color: inherit;
+        background-repeat: no-repeat;
+        background-size: 18px;
+        background-position: center left 8px, center left 53px, center left 97px;
+        background-image: url("/public/wk.svg"), url("/public/instagram.svg"),
+            url("/public/twitter.svg");
+    }
+
+    &__c {
+        padding: 16px 111px 16px 79px;
+        background-color: #e8edf3;
+        margin: 0 -20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__c-title {
+        width: 100%;
+        max-width: 371px;
+        color: #7a7a7a;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__c-list {
+        width: 100%;
+        max-width: 338px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__c-item {
+        color: #7a7a7a;
+        font-size: 10px;
+        font-style: normal;
+        line-height: 20px;
+    }
+
+    &__c-item1 {
+        color: #7a7a7a;
+        font-size: 10px;
+        font-style: normal;
+        line-height: 20px;
+    }
+}
