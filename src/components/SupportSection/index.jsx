@@ -8,11 +8,9 @@ const SupportSection = () => {
             <div className='support-wrapper'>
                 <div className='support-wrapper__start'>
                     <div
-                        style={{
-                            marginRight: "75px",
-                        }}>
+                        className="support-wrapper__SS">
                         <img
-                            className='support_wrapper__SSImg'
+                            className='support-wrapper__SSImg'
                             src={SSImg}
                             alt=''
                         />
@@ -27,195 +25,39 @@ const SupportSection = () => {
                         </p>
                     </div>
                     <ul className='support-wrapper__list'>
-                        <li
-                            style={{
-                                width: "100%",
-                                maxWidth: "217px",
-                                padding: "32px 29px 32px 32px",
-                                borderRadius: " 10px",
-                                background:
-                                    " linear-gradient(236deg, #FFF 29.99%, #F4F9FF 79.17%)",
-                                boxShadow:
-                                    " 0px 4px 100px 0px rgba(208, 218, 227, 0.57)",
-                                marginRight: "25px",
-                            }}>
-                            <span
-                                style={{
-                                    width: "100%",
-                                    maxWidth: "153px",
-                                    backgroundImage:
-                                        "linear-gradient(180deg, #4614E8 35%, #BCA7FF)",
-                                    webkitBackgroundClip: "text",
-                                    webkitTextFillColor: "transparent",
-                                    fontSize: "48px",
-                                    fontStyle: "normal",
-                                    fontWeight: "700",
-                                    lineHeight: "44px",
-                                }}>
+                        <li className='support-wrapper__list-item'>
+                            <span className='support-wrapper__list-span'>
                                 100+
-                                <b
-                                    style={{
-                                        textAlign: "center",
-                                        fontSize: "16px",
-                                        fontStyle: "normal",
-                                        fontWeight: "700",
-                                        lineHeight: "150%",
-                                        margin: "0 0 0 3px",
-                                    }}>
-                                    тыс
-                                </b>
+                                <b>тыс</b>
                             </span>
-                            <p
-                                style={{
-                                    width: "100%",
-                                    maxWidth: "156px",
-                                    padding: "0",
-                                    margin: "4px 0 0",
-                                    color: "#404040",
-                                    fontSize: "14px",
-                                    fontStyle: "normal",
-                                    lineHeight: "150%",
-                                }}>
+                            <p className='support-wrapper__list-desc'>
                                 Клиентов <br /> по всему миру
                             </p>
                         </li>
-                        <li
-                            style={{
-                                width: "100%",
-                                maxWidth: "179px",
-                                padding: "24px",
-                                borderRadius: " 10px",
-                                background:
-                                    " linear-gradient(236deg, #FFF 29.99%, #F4F9FF 79.17%)",
-                                boxShadow:
-                                    " 0px 4px 100px 0px rgba(208, 218, 227, 0.57)",
-                                marginBottom: "-17px",
-                            }}>
-                            <span
-                                style={{
-                                    width: "100%",
-                                    maxWidth: "76px",
-                                    backgroundImage:
-                                        "linear-gradient(180deg, #4614E8 35%, #BCA7FF)",
-                                    webkitBackgroundClip: "text",
-                                    webkitTextFillColor: "transparent",
-                                    fontSize: "36px",
-                                    fontStyle: "normal",
-                                    fontWeight: "700",
-                                    lineHeight: "44px",
-                                }}>
+                        <li className='support-wrapper__list-item1'>
+                            <span className='support-wrapper__list-span1'>
                                 15
-                                <b
-                                    style={{
-                                        textAlign: "center",
-                                        fontSize: "16px",
-                                        fontStyle: "normal",
-                                        fontWeight: "700",
-                                        lineHeight: "150%",
-                                        margin: "0 0 0 3px",
-                                    }}>
-                                    лет
-                                </b>
+                                <b>лет</b>
                             </span>
-                            <p
-                                style={{
-                                    width: "100%",
-                                    maxWidth: "131px",
-                                    padding: "0",
-                                    margin: "0",
-                                    color: "#404040",
-                                    fontSize: "14px",
-                                    fontStyle: "normal",
-                                    lineHeight: "150%",
-                                }}>
+                            <p className='support-wrapper__list-desc1'>
                                 Опытных <br /> юристов в штате
                             </p>
                         </li>
-                        <li
-                            style={{
-                                width: "100%",
-                                maxWidth: "179px",
-                                padding: "24px",
-                                borderRadius: " 10px",
-                                background:
-                                    " linear-gradient(236deg, #FFF 29.99%, #F4F9FF 79.17%)",
-                                boxShadow:
-                                    " 0px 4px 100px 0px rgba(208, 218, 227, 0.57)",
-                                margin: "-17px 25px 0 38px",
-                            }}>
-                            <span
-                                style={{
-                                    width: "100%",
-                                    maxWidth: "81px",
-                                    backgroundImage:
-                                        "linear-gradient(180deg, #4614E8 35%, #BCA7FF)",
-                                    webkitBackgroundClip: "text",
-                                    webkitTextFillColor: "transparent",
-                                    fontSize: "36px",
-                                    fontStyle: "normal",
-                                    fontWeight: "700",
-                                    lineHeight: "44px",
-                                    letterSpacing: "3.72px",
-                                }}>
+                        <li className='support-wrapper__list-item2'>
+                            <span className='support-wrapper__list-span2'>
                                 50+
                             </span>
-                            <p
-                                style={{
-                                    width: "100%",
-                                    maxWidth: "131px",
-                                    padding: "0",
-                                    margin: "0 0 0 3px",
-                                    color: "#404040",
-                                    fontSize: "14px",
-                                    fontStyle: "normal",
-                                    lineHeight: "150%",
-                                }}>
+                            <p className='support-wrapper__list-desc2'>
                                 Опытных
                                 <br />
                                 юристов в штате
                             </p>
                         </li>
-                        <li
-                            style={{
-                                width: "100%",
-                                maxWidth: "192px",
-                                padding: "32px",
-                                borderRadius: " 10px",
-                                background:
-                                    " linear-gradient(236deg, #FFF 29.99%, #F4F9FF 79.17%)",
-                                boxShadow:
-                                    " 0px 4px 100px 0px rgba(208, 218, 227, 0.57)",
-                                marginTop: "17px",
-                            }}>
-                            <span
-                                style={{
-                                    width: "100%",
-                                    maxWidth: "80px",
-                                    backgroundImage:
-                                        "linear-gradient(180deg, #4614E8 35%, #BCA7FF)",
-                                    webkitBackgroundClip: "text",
-                                    webkitTextFillColor: "transparent",
-                                    fontSize: "16px",
-                                    fontStyle: "normal",
-                                    fontWeight: "700",
-                                    fontFamily:
-                                        "Verdana, Geneva, Tahoma, sans-serif",
-                                    lineHeight: "44px",
-                                    letterSpacing: "3.72px",
-                                }}>
+                        <li className='support-wrapper__list-item3'>
+                            <span className='support-wrapper__list-span3'>
                                 SIRIUS
                             </span>
-                            <p
-                                style={{
-                                    width: "100%",
-                                    maxWidth: "156px",
-                                    padding: "0",
-                                    margin: "0",
-                                    color: "#404040",
-                                    fontSize: "14px",
-                                    fontStyle: "normal",
-                                    lineHeight: "150%",
-                                }}>
+                            <p className='support-wrapper__list-desc3'>
                                 Система на базе искусственного интеллекта
                             </p>
                         </li>

@@ -67,13 +67,13 @@
     }
 }
 
-@media (max-width: 957px) {
+@media only screen and (max-width: 957px) {
     .header-wrapper__text1 {
         display: none;
     }
 }
 
-@media (max-width: 755px) {
+@media only screen and (max-width: 755px) {
     .header-wrapper {
         padding: 22px 0 48px 0;
         display: flex;
@@ -116,10 +116,10 @@
             font-size: 0;
             border-radius: 7px;
             background-color: #2641d1;
+            background-image: url("/public/tel.svg");
             background-repeat: no-repeat;
             background-size: 16px 32px;
             background-position: center;
-            background-image: url("/public/tel.svg");
         }
 
         &__btn {
@@ -129,10 +129,10 @@
             background: #dee6ef;
             padding: 14px;
             font-size: 0;
+            background-image: url("/public/menu.svg");
             background-repeat: no-repeat;
             background-size: 16px 32px;
             background-position: center;
-            background-image: url("/public/menu.svg");
         }
     }
 }

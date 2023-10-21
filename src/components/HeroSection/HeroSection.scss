@@ -162,18 +162,18 @@
     }
 }
 
-@media (max-width: 1186px) {
+@media only screen and (max-width: 1186px) {
     .hero-wrapper__list1 {
         display: none;
     }
 }
 
-@media (max-width: 957px) {
+@media only screen and (max-width: 957px) {
     .hero-wrapper__list {
         display: none;
     }
 }
-@media (max-width: 787px) {
+@media only screen and (max-width: 787px) {
     .hero-wrapper {
         position: relative;
         padding: 60px 0 474px 0;
@@ -245,7 +245,7 @@
         }
 
         &__employees {
-            position: initial;
+            position: unset;
         }
 
         &__employees-img {
@@ -258,7 +258,7 @@
         }
 
         &__span {
-            position: initial;
+            position: unset;
             width: 100%;
             max-width: 122px;
             padding: 33px 37px;
@@ -281,7 +281,7 @@
         }
 
         &__list1 {
-            position: initial;
+            position: unset;
             width: 100%;
             max-width: 280px;
             display: flex;

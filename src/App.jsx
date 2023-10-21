@@ -21,9 +21,6 @@ const App = () => {
                     <PartnerSection />
                 </main>
                 <Footer />
-                <a className='to-top' href='#'>
-                    &uarr;
-                </a>
             </div>
         </div>
     );

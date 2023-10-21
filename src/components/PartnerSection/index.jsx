@@ -59,15 +59,11 @@ const PartnerSection = () => {
                             Вы получите доступ в личный кабинет с подробной
                             информацией о том, как:
                         </p>
-                        <ul
-                            style={{
-                                color: "#404040",
-                                fontSize: "14px",
-                                fontStyle: "normal",
-                                lineHeight: "20px;",
-                                paddingLeft: "18px",
-                            }}>
-                            <li style={{ listStyle: "outside" }}>
+                        <ul className='partner-wrapper__dating-list'>
+                            <li
+                                style={{
+                                    listStyle: "outside",
+                                }}>
                                 эффективно привлекать клиентов,
                             </li>
                             <li style={{ listStyle: "outside" }}>
@@ -83,7 +79,7 @@ const PartnerSection = () => {
                         <p
                             style={{
                                 color: "#404040",
-                                fontSize: "14px",
+                                fontSize: "12px",
                                 fontStyle: "normal",
                                 fontWeight: "700",
                                 lineHeight: "20px",

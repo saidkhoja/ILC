@@ -10,16 +10,7 @@ const Footer = () => {
                 <div className='footer-wrapper__start'>
                     <div className='footer-wrapper__start-img'>
                         <img
-                            style={{
-                                borderRadius: "20px",
-                                background:
-                                    "linearGradient(236deg, #FFF 29.99%, #F4F9FF 79.17%)",
-                                boxShadow: "0px 4px 100px 0px #d0dae391",
-                                margin: "0 0 -3px",
-                                width: "100%",
-                                maxWidth: "419px",
-                                height: "584px",
-                            }}
+                            className='footer-wrapper__start-jason'
                             src={Jason}
                             alt='Jason'
                         />
@@ -27,7 +18,7 @@ const Footer = () => {
                             <b
                                 style={{
                                     color: "#303030",
-                                    fontSize: "32px",
+                                    fontSize: "24px",
                                     fontStyle: "italic",
                                     lineHeight: "15.915px",
                                 }}>
@@ -48,16 +39,8 @@ const Footer = () => {
                         <p className='footer-wrapper__start-desc1'>
                             10 лет в управлении и юриспуденции
                         </p>
-                        <ul
-                            style={{
-                                width: "100%",
-                                maxWidth: "469px",
-                                color: "#404040",
-                                fontSize: "14px",
-                                fontStyle: "normal",
-                                lineHeight: "20px",
-                            }}>
-                            <li style={{}}>
+                        <ul className='footer-wrapper__start-list'>
+                            <li>
                                 Мы стараемся окружить заботой и создать
                                 максимально комфортные условия для развития
                                 каждого партнера:
@@ -99,21 +82,21 @@ const Footer = () => {
                 <div className='footer-wrapper__end'>
                     <span className='footer-wrapper__border'></span>
                     <div className='footer-wrapper__ilc'>
-                        <div
-                            style={{
-                                width: "100%",
-                                maxWidth: "458px",
-                                display: "flex",
-                                alignItems: "center",
-                            }}>
-                            <img
-                                className='footer-wrapper__ilc-svg'
-                                src={ILC}
-                                alt='svg'
-                            />
-                            <p className='footer-wrapper__ilc-desc'>
-                                International Legal Center
-                            </p>
+                        <div className='footer-wrapper__ilc1'>
+                            <div
+                                style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                }}>
+                                <img
+                                    className='footer-wrapper__ilc-svg'
+                                    src={ILC}
+                                    alt='svg'
+                                />
+                                <p className='footer-wrapper__ilc-desc'>
+                                    International Legal Center
+                                </p>
+                            </div>
 
                             <span className='footer-wrapper__ilc-span'>
                                 Первый цифровой международный юридический центр

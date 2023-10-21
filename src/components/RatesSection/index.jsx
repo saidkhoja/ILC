@@ -156,7 +156,7 @@ const RatesSection = () => {
                         <h4 className='rates-wrapper__heading5'>
                             международный бизнес
                         </h4>
-                        <p className='rates-wrapper__text7'>
+                        <p className='rates-wrapper__text8'>
                             Для ведения бизнеса за рубежом
                         </p>
                         <span className='rates-wrapper__span'>$98/месяц</span>

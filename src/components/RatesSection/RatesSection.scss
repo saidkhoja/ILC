@@ -26,8 +26,8 @@
         text-align: center;
         font-size: 14px;
         font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
+
+        line-height: 21px;
         margin: 16px auto 0;
         padding: 0;
     }
@@ -136,7 +136,6 @@
         text-align: center;
         font-size: 16px;
         font-style: normal;
-        font-weight: 400;
         line-height: 30px;
     }
 
@@ -326,6 +325,7 @@
         color: #404040;
         font-size: 16px;
         font-style: normal;
+        font-weight: 600;
         line-height: 30px;
         margin: 16px 0;
         padding: 0;
@@ -476,7 +476,7 @@
         padding: 0;
     }
 
-    &__text7 {
+    &__text8 {
         width: 100%;
         max-width: 267px;
         color: #737373;
@@ -534,8 +534,457 @@
         color: #e9e9e9;
         font-size: 16px;
         font-style: normal;
-        line-height: 150%;
+        line-height: 24px;
         margin: 0;
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1420px) {
+    .rates-wrapper {
+        &__mask-img {
+            min-width: 320px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+    .rates-wrapper {
+        &__list {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+        &__item1 {
+            margin: 16px 0;
+        }
+
+        &__item2 {
+            margin: 0;
+        }
+
+        &__item3 {
+            margin: 16px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .rates-wrapper {
+        padding: 72px 0 300px;
+
+        &__title {
+            width: 100%;
+            max-width: 280px;
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        &__text {
+            width: 100%;
+            max-width: 172px;
+            font-size: 12px;
+            line-height: 18px;
+            margin: 8px auto 0;
+        }
+
+        &__form {
+            width: 100%;
+            max-width: 158px;
+            margin: 16px auto;
+        }
+
+        &__btn {
+            width: 100%;
+            max-width: 106px;
+            border-radius: 10px;
+            padding: 8px 30px;
+
+            a {
+                font-size: 12px;
+            }
+        }
+
+        &__text1 {
+            font-size: 14px;
+        }
+
+        &__item {
+            width: 100%;
+            max-width: 280px;
+            padding: 24px 23px;
+            box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        }
+
+        &__text2 {
+            width: 100%;
+            max-width: 218px;
+            font-size: 12px;
+            letter-spacing: 1.8px;
+        }
+
+        &__heading {
+            width: 100%;
+            max-width: 218px;
+            margin: 4px 0 16px;
+            font-size: 18px;
+        }
+
+        &__text3 {
+            width: 100%;
+            max-width: 218px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+        &__heading1 {
+            width: 100%;
+            max-width: 220px;
+            font-size: 14px;
+        }
+
+        &__start-list {
+            width: 100%;
+            max-width: 237px;
+            display: flex;
+            flex-direction: column;
+            justify-content: unset;
+            align-items: center;
+        }
+
+        &__start-text {
+            width: 100%;
+            max-width: 237px;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 0 0 8px;
+            padding: 0 0 0 24px;
+            background-repeat: no-repeat;
+            background-size: 7px 4px;
+            background-position: center left;
+            background-image: url("/public/Triugolnik.svg");
+        }
+
+        &__start-text1 {
+            width: 100%;
+            max-width: 237px;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 0 34px 0 0;
+            margin: 0 0 8px;
+            padding: 0 0 0 24px;
+            background-repeat: no-repeat;
+            background-size: 7px 4px;
+            background-position: center left;
+            background-image: url("/public/Triugolnik.svg");
+        }
+
+        &__start-text2 {
+            width: 100%;
+            max-width: 220px;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 0 0 8px;
+            padding: 0 0 0 24px;
+            background-repeat: no-repeat;
+            background-size: 7px 4px;
+            background-position: center left;
+            background-image: url("/public/Triugolnik.svg");
+        }
+
+        &__start-text3 {
+            width: 100%;
+            max-width: 220px;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 0;
+            padding: 0 0 0 24px;
+            background-repeat: no-repeat;
+            background-size: 7px 4px;
+            background-position: center left;
+            background-image: url("/public/Triugolnik.svg");
+        }
+
+        &__link {
+            width: 100%;
+            max-width: 196px;
+            font-size: 12px;
+            padding: 0;
+            background-repeat: no-repeat;
+            background-size: 13px 12px;
+            background-position: center right;
+            background-image: url("/public/link.svg");
+        }
+
+        &__btn2 {
+            width: 100%;
+            max-width: 210px;
+            border-radius: 15px;
+            background: #273895;
+            border: 0;
+            padding: 15px 30px;
+
+            a {
+                font-size: 12px;
+            }
+        }
+
+        &__item1 {
+            width: 100%;
+            max-width: 280px;
+            justify-content: center;
+            align-items: center;
+            padding: 24px 23px;
+            box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        }
+
+        &__item2 {
+            width: 100%;
+            max-width: 280px;
+            justify-content: center;
+            align-items: center;
+            padding: 24px 23px;
+            box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        }
+
+        &__item3 {
+            width: 100%;
+            max-width: 280px;
+            justify-content: center;
+            align-items: center;
+            padding: 24px 23px;
+            box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        }
+
+        &__item4 {
+            width: 100%;
+            max-width: 280px;
+            justify-content: center;
+            align-items: center;
+            padding: 24px 23px;
+            box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        }
+
+        &__heading2 {
+            width: 100%;
+            max-width: 218px;
+            font-size: 12px;
+            letter-spacing: 1.8px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        &__text4 {
+            width: 100%;
+            max-width: 218px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 8px auto 16px;
+        }
+
+        &__span {
+            font-size: 14px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        &__text5 {
+            width: 100%;
+            max-width: 220px;
+            font-size: 14px;
+            text-align: center;
+            margin: 16px auto;
+        }
+
+        &__standart-item {
+            width: 100%;
+            max-width: 232px;
+            margin: 0 0 8px 0;
+            padding: 0 0 0 20px;
+            font-size: 12px;
+            line-height: 20px;
+            background-repeat: no-repeat;
+            background-size: 7px 4px;
+            background-position: top 10px left;
+            background-image: url("/public/Triugolnik.svg");
+        }
+
+        &__link1 {
+            width: 100%;
+            max-width: 196px;
+            margin: 8px 0 16px 0;
+            font-size: 12px;
+            padding: 0;
+            background-repeat: no-repeat;
+            background-size: 13px 12px;
+            background-position: center right;
+            background-image: url("/public/link.svg");
+        }
+
+        &__btn3 {
+            width: 100%;
+            max-width: 210px;
+            border-radius: 15px;
+            background: #273895;
+            border: 0;
+            padding: 15px 30px;
+
+            a {
+                font-size: 12px;
+            }
+        }
+
+        &__heading3 {
+            width: 100%;
+            max-width: 218px;
+            font-size: 12px;
+            letter-spacing: 1.8px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        &__text6 {
+            width: 100%;
+            max-width: 218px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 8px auto 16px;
+        }
+
+        &__bizneskons-item {
+            width: 100%;
+            max-width: 232px;
+            margin: 0 0 8px 0;
+            padding: 0 0 0 20px;
+            font-size: 12px;
+            line-height: 20px;
+            background-repeat: no-repeat;
+            background-size: 7px 4px;
+            background-position: top 10px left;
+            background-image: url("/public/Triugolnik.svg");
+        }
+
+        &__heading4 {
+            width: 100%;
+            max-width: 218px;
+            font-size: 12px;
+            letter-spacing: 1.8px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        &__text7 {
+            width: 100%;
+            max-width: 218px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 8px auto 16px;
+        }
+
+        &__biznesprem-item {
+            width: 100%;
+            max-width: 232px;
+            margin: 0 0 8px 0;
+            padding: 0 0 0 20px;
+            font-size: 12px;
+            line-height: 20px;
+            background-repeat: no-repeat;
+            background-size: 7px 4px;
+            background-position: top 10px left;
+            background-image: url("/public/Triugolnik.svg");
+        }
+
+        &__biznesprem-item:last-child {
+            margin: 0;
+        }
+
+        &__heading5 {
+            width: 100%;
+            max-width: 218px;
+            font-size: 12px;
+            letter-spacing: 1.8px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        &__text7 {
+            width: 100%;
+            max-width: 218px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 8px auto 16px;
+        }
+
+        &__interbiznes-item {
+            width: 100%;
+            max-width: 232px;
+            margin: 0 0 8px 0;
+            padding: 0 0 0 20px;
+            font-size: 12px;
+            line-height: 20px;
+            background-repeat: no-repeat;
+            background-size: 7px 4px;
+            background-position: top 10px left;
+            background-image: url("/public/Triugolnik.svg");
+        }
+
+        &__mask-img {
+            position: absolute;
+            bottom: 0;
+            height: auto;
+        }
+
+        &__mask-div {
+            position: absolute;
+            bottom: 50px;
+            left: auto;
+            right: auto;
+            width: 100%;
+            max-width: 280px;
+        }
+
+        &__mask-title {
+            width: 100%;
+            max-width: 200px;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            margin: 0 auto 16px;
+        }
+
+        &__mask-text {
+            width: 100%;
+            max-width: 214px;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 727px) {
+    .rates-wrapper {
+        &__mask-img {
+            position: absolute;
+            bottom: 0;
+            height: 0;
+            width: 0;
+        }
+
+        &__mask-div {
+            position: absolute;
+            bottom: 0;
+            left: unset;
+            right: unset;
+            padding: 40px 20px 80px;
+            background-color: #273895;
+            width: 100%;
+            max-width: 674px;
+        }
     }
 }
